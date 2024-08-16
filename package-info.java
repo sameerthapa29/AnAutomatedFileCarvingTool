@@ -1,24 +1,20 @@
 /**
- * *  @author Sameer Thapa
+*  @author Sameer Thapa
 * 
 *  uses:
-*      This is the control package that is used to keep the controllers of the project
+*      This is the model package that is used to keep the model object of the project
 * 
 *  Classes:
-*  {@link control.AlertBoxCtrl}: this is the alert box controller
-*  {@link control.ReconstructResultCtrl}: this is the reconstruct reslut control
-*  {@link control.DownloadReportResultCtrl}: this is the redownload report reslut control
-*  {@link control.HashMatchTableViewCtrl}: this is the hash match table view scene 
-*  {@link control.SetSearchResultsDirectoryCtrl}: this is the search results directory scene 
-*  {@link control.BrowseFileCtrl}: this is the browse file control
-*  {@link control.FragmentationCtrl}: this is fragmentation
-*  {@link control.FragmentsTableViewCtrl}: this is the table view scene of the fragments
-*  {@link control.HashCtrl}: this is the hash scene control
-*  {@link control.HomeCtrl}: this is the home scene control
-*  {@link control.SearchCtrl}: this is the search scene control
-*  {@link control.SearchTableViewCtrl}: this is the search table view scene 
-*  {@link control.SetImageDirectoryCtrl}: this is the hash match table view scene 
-*  {@link control.SetReonstructedDirectoryCtrl}: this is the reconstructed directory scene controller
-*  {@link control.SetReportDirectoryCtrl}: this is the hash match table view scene 
+*  {@link model.FragmentMatchInfo}: this is the object of the fragment file match inforamtion  
+*  {@link model.ReconstructFragments}: this class is used to reconstruct the fragmnets
+*  {@link model.ReportGenerate}: this object is used to generate the report
+*  {@link model.CalculateCompareHash}: this is used to calculate the hash and the conpare it
+*  {@link model.FragmentFile}: this is the method that makes the fragmetaion of the files
+*  {@link model.FragmentInfo}: this is the object of the fragment file inforamtion
+*  {@link model.SearchBySigniture}: this is to perform the search by the Signiture of the file 
+*  {@link model.ImageCreater}: this is used to create the forensics imgae of the directory
+*  {@link model.StoreFileintoDirectory}: this is used to store the files into one directory
+*  {@link model.Main}: this is the main class
+* 
  */
-package control;
+package model;
