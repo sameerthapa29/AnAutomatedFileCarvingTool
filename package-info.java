@@ -2,19 +2,18 @@
 *  @author Sameer Thapa
 * 
 *  uses:
-*      This is the model package that is used to keep the model object of the project
+*      This is the visualization package that is used to keep the visualization scenes of the project
 * 
 *  Classes:
-*  {@link model.FragmentMatchInfo}: this is the object of the fragment file match inforamtion  
-*  {@link model.ReconstructFragments}: this class is used to reconstruct the fragmnets
-*  {@link model.ReportGenerate}: this object is used to generate the report
-*  {@link model.CalculateCompareHash}: this is used to calculate the hash and the conpare it
-*  {@link model.FragmentFile}: this is the method that makes the fragmetaion of the files
-*  {@link model.FragmentInfo}: this is the object of the fragment file inforamtion
-*  {@link model.SearchBySigniture}: this is to perform the search by the Signiture of the file 
-*  {@link model.ImageCreater}: this is used to create the forensics imgae of the directory
-*  {@link model.StoreFileintoDirectory}: this is used to store the files into one directory
-*  {@link model.Main}: this is the main class
-* 
+*  {@link visualization.AlertBoxScene}: this is the Alert Box scene used to alert the user
+*  {@link visualization.SetDirectoryScene}: this is the Set Directory scene used to set the directory
+*  {@link visualization.FragmentationScene}: this is the scene that is shown when fragmented
+*  {@link visualization.FragmentsTableViewScene}: this is the table view scene that shows the fragments informatiion
+*  {@link visualization.SearchTableViewScene}: this is the table view scene that shows the search informatiion
+*  {@link visualization.BrowseFileScene}: this is the browse file scene used
+*  {@link visualization.HashMatchTableViewScene}: this is the table view scene that shows the hash and the match of fargments
+*  {@link visualization.HomeScene}: this is the Home Scene
+*  {@link visualization.ModifyScene}: this scene alerts the user if they want to be edited
+*  {@link visualization.SearchScene}: this is the search scene where the user enters the signiture
  */
-package model;
+package visualization;
